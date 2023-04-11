@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Appoinment Form</title>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+
+</style>
+<body>
+	<div class="main_container">
+	    <div class="sub_container">
+			<div class="sub_container_content">
+				<h2>Make an Appointment</h2>
+					<div class="sub_container_line">
+						<div class="sub_container_line_blue">
+					
+						</div>
+					</div>
+				<p>Magnam dolores commodi suscipit.Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+				sit sint consectetur velit.Quisquam quos quisquam cupiditate.Et nemo qui impedit suscipit alias ea.
+				Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+			</div>
+		</div>
+		<div class="form_section">
+			<div class="name_email_phone">
+				<form>
+					<input type="text" id="name" name="usernamebox" placeholder="Your Name" required>
+					<input type="email" id="email" name="useremailbox" placeholder="Your Email" required>
+					<input type="tel" id="phone" name="userphonebox" placeholder="Your Phone" required>
+				</form>
+			</div>
+			<div class="date_department_doctor">
+				<div class="date">
+					<form>
+						<input type="text" id="date" name="userneededdate" placeholder="Appointment Date( 07-05-2001 )" required>
+					</form>
+				</div>
+				<div class="department">
+					<form>
+						<select id="" name="">
+							<option value="Select Department" selected >Select Department</option>
+							<option value="Cardiology">Cardiology</option>
+							<option value="General Checkup">General Checkup</option>
+							<option value="Neurology">Neurology</option>
+							<option value="Psychologist">Psychologist</option>
+						</select>
+					</form>
+				</div>
+				<div class="doctor">
+					<form>
+						<select id="" name="">
+							<option value="Select Doctor" selected >Select Doctor</option>
+							<optgroup label="Cardiology">
+								<option value="Dr.Karthika">Dr.Karthika</option>
+							<optgroup label="General Checkup">
+								<option value="Dr.Jeeva">Dr.Jeeva</option>
+							<optgroup label="Neurology">
+								<option value="Dr.Meena">Dr.Meena</option>
+							<optgroup label="Psychologist">
+								<option value="Dr.Dhinakaran">Dr.Dhinakaran</option>
+						</select>
+					</form>
+				</div>
+			</div>
+			<div class="message">
+				<textarea id="" name="" placeholder="Message(optional)"></textarea>
+			</div>
+			<div class="final_button">
+				<button class="appointment_button">Make an Appointment</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

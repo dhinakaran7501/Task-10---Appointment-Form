@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.main_container{
+		width:90%;
+	margin:20px auto;
+	background-color:#eef9ff;
+}
+.sub_container{
+	margin: 0 auto;
+	width:80%;
+    font-size: 17px;
+}
+.sub_container_content{
+	text-align:center;	
+}
+.sub_container_content h2{
+	color:#113309;
+}
+.sub_container_line{
+	margin: 10px auto;
+    width: 124px;
+    height: 1px;
+    background-color: #ece7e7;
+}
+.sub_container_line_blue{
+	margin: 10px auto;
+    width: 54px;
+    height: 1px;
+    background-color: #000fff;
+}
+.form_section{
+	margin:20px auto;
+}
+.name_email_phone form input{
+	display:block;
+	width: 297px;
+    height: 36px;
+}
+.name_email_phone form{
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.date_department_doctor{
+	display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+.date form input{
+	width: 297px;
+    height: 36px;
+}
+.department form select{
+	width: 297px;
+    height: 36px;
+}
+.doctor form select{
+	width: 297px;
+    height: 36px;
+}	
+.message{
+	width:82%;
+	margin:20px auto;
+}
+.message textarea{
+	width: 1133px;
+    height: 120px;
+}
+.final_button{
+	display: flex;
+    justify-content: center;
+}
+.appointment_button{
+	padding: 10px;
+    border-radius: 22px;
+    background-color: blue;
+	color:white;
+	border-color: blue;
+	font-weight: 600;
+    font-size: 14px;
+}
